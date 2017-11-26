@@ -1,0 +1,134 @@
+
+html{
+    background-color: black;
+}
+
+#landing {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+}
+
+#landing p {
+    color: white;
+}
+
+#landing a {
+    color: white;
+    text-decoration: none;
+}
+
+/*planets (and the sun)*/
+.stop {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    width: auto;
+}
+
+.next {
+    height: 30px;
+    width: auto;
+}
+
+.previous {
+    height: 30px;
+    width: auto;
+}
+
+#sun {
+    
+}
+
+#sun img {
+    height: 500px;
+    width: auto;
+}
+
+#mercury {
+    
+}
+
+#mercury img {
+    height: 500px;
+    width: auto;
+}
+
+#venus {
+    
+}
+
+#venus img {
+    height: 500px;
+    width: auto;
+}
+
+#earth {
+    
+}
+
+#earth img {
+    height: 500px;
+    width: auto;
+}
+
+#mars {
+    
+}
+
+#mars img {
+    height: 500px;
+    width: auto;
+}
+
+#asteroid-belt {
+    
+}
+
+#asteroid-belt img {
+    height: 500px;
+    width: auto;
+}
+
+#jupiter {
+    
+}
+
+#jupiter img {
+    height: 500px;
+    width: auto;
+}
+
+#saturn {
+    
+}
+
+#saturn img {
+    height: 500px;
+    width: auto;
+}
+
+#uranus {
+    
+}
+
+#uranus img {
+    height: 500px;
+    width: auto;
+}
+
+#neptune {
+    
+}
+
+#neptune img {
+    height: 500px;
+    width: auto;
+}
+
