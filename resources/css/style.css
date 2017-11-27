@@ -1,6 +1,7 @@
 
 html{
     background-color: black;
+    color: white;
 }
 
 #landing {
@@ -20,6 +21,37 @@ html{
 #landing a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
+}
+
+#nav {
+    float: right;
+    position: fixed;
+    right: 40px;
+    bottom: 60px;
+}
+
+#scale-bar {
+    position: fixed;
+    bottom: 80px;
+    left: 60px;
+    
+    height: 75px;
+    width: 10px;
+    background-color: white;
+    z-index: 100;
+}
+
+#scale {
+    position: fixed;
+    bottom: 60px;
+    left: 200px;
+}
+
+#au-scale {
+    position: fixed;
+    bottom: 60px;
+    left: 100px;
 }
 
 /*planets (and the sun)*/
@@ -35,8 +67,12 @@ html{
 }
 
 .container {
-    height: 500px;
-    width: 500px;
+    height: 700px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 #sun {
@@ -53,7 +89,7 @@ html{
 }
 
 #mercury img {
-    height: 500px;
+    height: .35%;
     width: auto;
 }
 
@@ -62,7 +98,7 @@ html{
 }
 
 #venus img {
-    height: 500px;
+    height: .87%;
     width: auto;
 }
 
@@ -71,7 +107,7 @@ html{
 }
 
 #earth img {
-    height: 500px;
+    height: .92%;
     width: auto;
 }
 
@@ -80,7 +116,7 @@ html{
 }
 
 #mars img {
-    height: 500px;
+    height: .49%;
     width: auto;
 }
 
@@ -102,7 +138,7 @@ html{
 }
 
 #jupiter img {
-    height: 500px;
+    height: 10.26%;
     width: auto;
 }
 
@@ -111,7 +147,7 @@ html{
 }
 
 #saturn img {
-    height: 500px;
+    height: 8.62%;
     width: auto;
 }
 
@@ -120,7 +156,7 @@ html{
 }
 
 #uranus img {
-    height: 500px;
+    height: 3.68%;
     width: auto;
 }
 
@@ -129,7 +165,55 @@ html{
 }
 
 #neptune img {
-    height: 500px;
+    height: 3.49%;
     width: auto;
 }
+
+
+
+/*gaps*/
+.gap {
+    
+}
+
+#sun-mercury {
+    height: ;
+}
+
+#mercury-venus {
+    height: ;
+}
+
+#venus-earth {
+    height: ;
+}
+
+#earth-mars {
+    height: ;
+}
+
+#mars-asteroid {
+    height: ;
+}
+
+#asteroid-jupiter {
+    height: ;
+}
+
+#jupiter-saturn {
+    height: ;
+}
+
+#saturn-uranus {
+    height: ;
+}
+
+#uranus-neptune {
+    height: ;
+}
+
+
+
+
+
 
