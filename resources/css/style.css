@@ -54,6 +54,12 @@ html{
     left: 100px;
 }
 
+#scale-toggle {
+    position: fixed;
+    bottom: 80px;
+    right: 200px;
+}
+
 /*planets (and the sun)*/
 .stop {
     display: flex;
@@ -213,7 +219,100 @@ html{
 }
 
 
+/*best solution right now*/
+#sun1 {
+    
+}
 
+#sun1 img {
+    height: 100%;
+    width: auto;
+}
+
+#mercury1 {
+    
+}
+
+#mercury1 img {
+    height: 100%;
+    width: auto;
+}
+
+#venus1 {
+    
+}
+
+#venus1 img {
+    height: 100%;
+    width: auto;
+}
+
+#earth1 {
+    
+}
+
+#earth1 img {
+    height: 100%;
+    width: auto;
+}
+
+#mars1 {
+    
+}
+
+#mars1 img {
+    height: 100%;
+    width: auto;
+}
+
+#asteroid-belt1 {
+    height: 50px;
+    width: 100%;
+    background-image: url("")
+    
+    background-color: white;
+}
+
+#asteroid-belt1 img {
+    height: 50px;
+    width: auto;
+}
+
+#jupiter1 {
+    
+}
+
+#jupiter1 img {
+    height: 100%;
+    width: auto;
+}
+
+#saturn1 {
+    
+}
+
+#saturn1 img {
+    height: 100%;
+    width: auto;
+}
+
+#uranus1 {
+    
+}
+
+#uranus1 img {
+    height: 100%;
+    width: auto;
+}
+
+#neptune1 {
+    
+}
+
+#neptune1 img {
+    height: 100%;
+    width: auto;
+}
 
 
 
