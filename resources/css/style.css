@@ -26,20 +26,17 @@ html{
 .stop {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     height: 100vh;
     width: auto;
+    color: white;
+    text-align: center;
 }
 
-.next {
-    height: 30px;
-    width: auto;
-}
-
-.previous {
-    height: 30px;
-    width: auto;
+.container {
+    height: 500px;
+    width: 500px;
 }
 
 #sun {
@@ -47,7 +44,7 @@ html{
 }
 
 #sun img {
-    height: 500px;
+    height: 100%;
     width: auto;
 }
 
@@ -88,11 +85,15 @@ html{
 }
 
 #asteroid-belt {
+    height: 50px;
+    width: 100%;
+    background-image: url("")
     
+    background-color: white;
 }
 
 #asteroid-belt img {
-    height: 500px;
+    height: 50px;
     width: auto;
 }
 
